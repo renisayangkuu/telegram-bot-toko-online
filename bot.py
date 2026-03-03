@@ -667,17 +667,9 @@ def main():
     
     print("✅ Siap!")
     
-    # Untuk Railway, gunakan webhook jika ada PORT environment variable
-    if os.getenv("RAILWAY_ENVIRONMENT"):
-        print("🚂 Running on Railway with webhook...")
-        app.run_webhook(
-            listen="0.0.0.0",
-            port=PORT,
-            webhook_url=f"https://{os.getenv('RAILWAY_PUBLIC_DOMAIN')}"
-        )
-    else:
-        print("💻 Running locally with polling...")
-        app.run_polling(allowed_updates=Update.ALL_TYPES)
+    # Gunakan polling untuk Railway (lebih stabil)
+    print("💻 Running with polling...")
+    app.run_polling(allowed_updates=Update.ALL_TYPES)
 
 if __name__ == "__main__":
     main()
