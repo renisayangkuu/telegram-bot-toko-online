@@ -1,0 +1,12 @@
+[build]
+builder = "NIXPACKS"
+
+[deploy]
+startCommand = "python bot.py"
+restartPolicyType = "ON_FAILURE"
+restartPolicyMaxRetries = 10
+
+[environments.production.variables]
+BOT_TOKEN = { description = "Telegram Bot Token from @BotFather" }
+GROQ_API_KEY = { description = "Groq API Key for AI functionality" }
+ADMIN_PASSWORD = { description = "Admin password for bot management" }
