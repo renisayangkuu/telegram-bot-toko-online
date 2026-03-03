@@ -1,0 +1,84 @@
+[
+  {
+    "order_id": "ORD0001",
+    "user_id": 7377897259,
+    "user_name": "rere",
+    "username": "kxkl_ubed",
+    "items": [
+      {
+        "product_code": "PRD008",
+        "product_name": "Parfum Laundry 1 Liter",
+        "quantity": 1,
+        "price": 30000.0,
+        "subtotal": 30000.0
+      }
+    ],
+    "total": 30000.0,
+    "status": "Selesai",
+    "date": "2026-03-02T10:43:11.691853",
+    "payment_status": "Lunas"
+  },
+  {
+    "order_id": "ORD0002",
+    "user_id": 7377897259,
+    "user_name": "rere",
+    "items": [
+      {
+        "product_code": "PRD001",
+        "product_name": "Keripik Pisang Original",
+        "quantity": 2,
+        "price": 15000.0,
+        "subtotal": 30000.0
+      },
+      {
+        "product_code": "PRD005",
+        "product_name": "Es Teh Lemon Literan",
+        "quantity": 1,
+        "price": 10000.0,
+        "subtotal": 10000.0
+      }
+    ],
+    "total": 40000.0,
+    "status": "Pending",
+    "date": "2026-03-02T13:54:22.616315"
+  },
+  {
+    "order_id": "ORD0003",
+    "user_id": 7377897259,
+    "user_name": "rere",
+    "items": [
+      {
+        "product_code": "PRD001",
+        "product_name": "Keripik Pisang Original",
+        "quantity": 1,
+        "price": 15000.0,
+        "subtotal": 15000.0
+      }
+    ],
+    "total": 15000.0,
+    "date": "2026-03-02T14:10:51.437148",
+    "payment_method": "EWALLET",
+    "status": "Selesai",
+    "payment_status": "Lunas",
+    "payment_proof": "AgACAgUAAxkBAAIBPGmlOD_ywk_lNoqkbfpk-ly4X_vgAAJ2DmsbiSgpVSt9Uvjf92lYAQADAgADeAADOgQ"
+  },
+  {
+    "order_id": "ORD0004",
+    "user_id": 7377897259,
+    "user_name": "rere",
+    "items": [
+      {
+        "product_code": "PRD001",
+        "product_name": "Keripik Pisang Original",
+        "quantity": 1,
+        "price": 15000.0,
+        "subtotal": 15000.0
+      }
+    ],
+    "total": 15000.0,
+    "date": "2026-03-02T14:24:29.224218",
+    "payment_method": "COD",
+    "status": "Selesai",
+    "payment_status": "COD"
+  }
+]
